@@ -1,7 +1,6 @@
 #include <stdbool.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <stdlib.h>
 volatile unsigned long timesec = 0;
 ISR(TIMER1_COMPA_vect){
 	timesec++;
