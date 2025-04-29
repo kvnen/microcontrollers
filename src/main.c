@@ -1,7 +1,6 @@
 #include <avr/io.h>
 #include <avr/delay.h>
 #include <util/delay.h>
-//hahah
 int main(){
 	DDRB = 0xFF;
 	while(1){
